@@ -70,7 +70,7 @@ function listarPizzas($conn)
 
 <body>
 
-    <h1>Realizar pedido</h1>
+
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <input value="<?php if (isset($username)) echo $username;?> "name="username" type="text">
         <input name="password" type="password">
